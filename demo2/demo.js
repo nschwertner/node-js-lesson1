@@ -46,7 +46,7 @@ global.console.log = function (arg) {
 }
 
 // Now this is curious, not that it makes any sense
-console.log ("Marry Had a Little Lamb");
+console.log ("bmaL elttiL a daH yrraM");
 
 // So, in conclusion, playing around with the global object is fun and educational,
 // but please don't do it at home! It's best not to define global variables at all,
