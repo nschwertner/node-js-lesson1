@@ -42,13 +42,7 @@ console.log(process.env.PATH);
 
 // Finally, we can do some monkey business by overriding object behaviors at will
 global.console.log = function (arg) {
-  function reverse(s) {
-    var o = '';
-    for (var i = s.length - 1; i >= 0; i--)
-      o += s[i];
-    return o;
-  }
-  console.info (reverse(arg));
+  console.info (arg.split('').reverse().join(''));
 }
 
 // Now this is curious, not that it makes any sense
