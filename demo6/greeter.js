@@ -9,7 +9,7 @@ function printMessage (message) {
 }
 
 function setName (newname) {
-  console.log (name, ", you shall hereby be known as", newname);
+  console.log (name + ", you shall hereby be known as", newname);
   name = newname;
 }
 
