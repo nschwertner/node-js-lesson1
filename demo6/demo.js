@@ -1,4 +1,5 @@
-// Demonstrates how to load and use a core module
-var fs = require('fs');
-var data = fs.readFileSync('sample.txt').toString();
-console.log(data);
+// getting a bit more interesting
+var g = require('./greeter');
+g.greet();
+g.setName('Nikolai');
+g.bye();
