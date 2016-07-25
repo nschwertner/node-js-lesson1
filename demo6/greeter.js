@@ -1,4 +1,4 @@
-// a more complex module which exposes an object containing functions
+// and here is a module that is capable of maintaining state
 
 const MSG_GREET = 'Nice to meet you';
 const MSG_BYE = "Good bye";
